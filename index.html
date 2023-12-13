@@ -5,36 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forside</title>
     <meta name="robots" content="noindex, nofollow" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="topmenu">
-          <img class="smalllogo" src="img/smallogo.png " alt="smalllogo" />
-          Biojunkie
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="omos.html">Om os</a></li>
-          <li><a href="kurv.html">Kurv</a></li>
-          <li class="searchbar">
-            <input type="text" placeholder="Search" />
-            <button type="submit">Search</button>
-          </li>
-        </ul>
+      <nav id="navbar">
+        <div class="nav_wrapper">
+          <div class="logo">
+            <a href="#forside"
+              ><img
+                width="200px"
+                height="auto"
+                src="img/Artboard 8.svg"
+                alt="BioJunkies logo, med en kvinde inden i Afrika"
+            /></a>
+          </div>
+          <ul class="menu">
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="omos.html">OM OS</a></li>
+            <li>
+              <a href="kurv.html">KURV</a>
+              <img src="img/kurv.png" width="25px" />
+            </li>
+            <li class="searchbar">
+              <input type="text" placeholder="SØG" />
+              <button type="submit">SØG</button>
+            </li>
+          </ul>
+        </div>
       </nav>
+    </header>
+    <main>
       <div class="round-box">
-        <img src="img/main.jpg" alt="person sitting" />
         <p>Naturlig skønhed uden kompromis</p>
+        <img src="img/main.jpg" alt="person sitting" />
       </div>
-      <section class="grid_1_1">
-        <div class="roundedimg">
-          <img src="img/roundedpic.jpg" alt="shampoo" />
+      <section class="grid_1-1">
+        <div class="col">
+          <img src="img/roundedpic.jpg" alt="picture of shampoo bottles" />
+        </div>
+        <div class="col_order">
+          <h2>Biojunkies produkter</h2>
+          <p>
+            Fri for skadelige stoffer og allergi-certificeret. Hvor sundhed,
+            bæredygtighed og socialt ansvar mødes for en bevidst og smuk dig.
+          </p>
+          <a href="shop.html" class="my-button">Shop</a>
         </div>
       </section>
-    </header>
-    <main></main>
+    </main>
   </body>
 </html>
-
->>>>>>> 5bcbde5a45049199541d155b933d185b8204d402

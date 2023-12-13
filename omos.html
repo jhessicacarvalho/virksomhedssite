@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="omos.css" />
+    <link rel="stylesheet" href="css/omos.css" />
     <title>Om os</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="omos.html">About</a></li>
-        </ul>
+      <nav id="navbar">
+        <div class="nav_wrapper">
+          <div class="logo">
+            <a href="#forside"
+              ><img
+                width="200px"
+                height="auto"
+                src="img/Artboard 8.svg"
+                alt="BioJunkies logo, med en kvinde inden i Afrika"
+            /></a>
+          </div>
+
+          <ul class="menu">
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="omos.html">OM OS</a></li>
+            <li>
+              <a href="kurv.html">KURV</a
+              ><img src="img/kurv.png" width="25px" />
+            </li>
+            <li class="searchbar">
+              <input type="text" placeholder="SØG" />
+              <button type="submit">SØG</button>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -94,10 +114,15 @@
     </main>
     <footer>
       <div class="column">
-        <img src="logo.png" alt="Logo" width="100" />
-        <p class="info">Adresse: Din adresse</p>
-        <p class="info">Tlf: +45 26 24 51 22</p>
-        <p class="info">Email: info@example.com</p>
+        <img class="artboard" src="img/Artboard 8.svg" alt="Logo" width="100" />
+        <p class="info">
+          <b>Adresse:</b> Biojunkie ApS <br />
+          Lindebjergevej 1 <br />
+          3370 Melby<br />
+          Danmark<br />
+        </p>
+        <p class="info"><b>Tlf:</b> +45 26 24 51 22</p>
+        <p class="info"><b>Email:</b> info@biojunkie.dk</p>
       </div>
       <div class="column">
         <h1>Kundeservice</h1>

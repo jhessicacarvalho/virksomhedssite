@@ -1,0 +1,150 @@
+@media (min-width: 800px) {
+  header {
+    gap: 30px;
+  }
+  :root {
+    --green: #294036;
+    --teracotta: #9a4f2e;
+    --honey: #d4aa3e;
+    --sage: #a0a582;
+    --darkbrown: #4e3629;
+    --brown: #a26a41;
+    --beige: #d0b590;
+    --cream: #efe6d3;
+  }
+  a {
+    font-family: metropolis;
+    text-decoration: none;
+    color: var(--honey);
+  }
+
+  #navbar {
+    background: var(--teracotta);
+    height: 100px;
+    line-height: 80px;
+    width: 100vw;
+  }
+
+  .nav_wrapper {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .menu img {
+    padding-left: 0.5em;
+    padding-right: 0em;
+    margin: 0;
+  }
+
+  .logo {
+    float: left;
+    margin-top: 25px;
+  }
+
+  #navbar ul {
+    float: right;
+    list-style: none;
+  }
+
+  #navbar li {
+    display: inline-block;
+    margin-right: 1.5em;
+  }
+
+  #navbar li a:hover {
+    color: var(--cream);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+  }
+
+  .searchbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .searchbar input {
+    padding: 3px;
+    margin-right: 0.2em;
+    border: 0;
+    border-radius: 5px;
+    font-family: metropolis;
+    font: 1em;
+    background-color: var(--cream);
+    padding-left: 1em;
+  }
+
+  .searchbar button {
+    border-radius: 5px;
+    border: 0;
+    font-family: metropolis;
+    font-size: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    background-color: var(--honey);
+    color: var(--teracotta);
+  }
+  .round-box {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .round-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .round-box p {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 55%;
+    font-size: 40px;
+  }
+  .my-button {
+    display: block;
+    padding: 7px 2px;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(170, 64, 7);
+    color: rgb(224, 190, 16);
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    /* justify-content: space-between; Remove this line, as it's not needed here */
+    display: inline-block;
+  }
+  .my-button:hover {
+    background-color: beige;
+  }
+  .col {
+    flex: 1;
+    overflow: hidden;
+  }
+  .col img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .col_order {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
