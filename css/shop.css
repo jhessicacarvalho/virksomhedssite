@@ -1,0 +1,164 @@
+:root{
+    --green: #294036;
+    --teracotta: #9A4F2E;
+    --honey: #D4AA3E;
+    --sage: #A0A582;
+    --darkbrown:#4E3629;
+    --brown: #A26A41;
+    --beige: #D0B590;
+    --cream: #EFE6D3;
+}
+@font-face {
+    font-family: elsie;
+    src: url(fonts/elsieswashwoff2);
+}
+@font-face {
+    font-family: elsie_bold;
+    src: url(fonts/elsieswash_bold.woff2);
+}
+
+@font-face {
+    font-family: metropolis;
+    src: url(fonts/metropolis.woff2);
+}
+
+@font-face {
+    font-family: metropolis_bold;
+    src: url(fonts/metropolis_bold.woff2);
+}
+
+@font-face {
+    font-family: metropolis_black;
+    src: url(fonts/metropolis_black.woff2);
+}
+
+body{
+    background: var(--green);
+}
+
+/* NAV MENU */
+a{
+    font-family: metropolis;
+    text-decoration: none;
+    color: var(--honey);
+}
+
+#navbar{
+    background: var(--teracotta);
+    height: 100px;
+    line-height: 70px;
+    width: 100vw;
+}
+
+.nav_wrapper{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.logo{
+    float: left;
+    margin-top: 25px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+#navbar li a:hover{
+    color: var(--cream);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+  }
+
+.searchbar input {
+    padding: 3px;
+    margin-right: 0.5em;
+    border: 0;
+    border-radius: 5px;
+    font-family: metropolis;
+    font: 1em;
+    background-color: var(--cream);
+    padding-left: 1em;
+  }
+
+  .searchbar button{
+    border-radius: 5px;
+    border: 0;
+    font-family: metropolis;
+    font-size: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    background-color: var(--honey);
+    color: var(--teracotta);
+  }
+
+/* SHOP ALLE PRODUKTER */
+img{
+    max-width: 100%;
+}
+
+.overlay{
+    
+}
+
+button{
+    font-family: metropolis;
+    background-color: var(--honey);
+    color: var(--teracotta);
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+    padding-top: 2em;
+}
+
+.description{
+    grid-column: 2/4;
+}
+
+h2{
+    color: var(--honey);
+    margin-top: 2em;
+    margin-bottom: 0em;
+    padding: 0;
+    text-align: center;
+    font-family: elsie;
+    font-size: 3em;
+}
+
+h5{
+    color: var(--sage);
+    text-align: center;
+    font-family: metropolis_bold;
+    font-size: 1em;
+    margin: 0;
+    padding-top: 1em;
+}
+
+p{
+    color: var(--sage);
+    text-align: center;
+    font-family: metropolis;
+    font-size: 1em;
+    margin: 0;
+}
