@@ -46,14 +46,20 @@ a{
 #navbar{
     background: var(--teracotta);
     height: 100px;
-    line-height: 70px;
+    line-height: 80px;
     width: 100vw;
 }
 
 .nav_wrapper{
     margin: auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
+}
+
+.menu img{
+    padding-left: 0.5em;
+    padding-right: 0em;
+    margin: 0;
 }
 
 .logo{
@@ -84,7 +90,7 @@ a{
 
 .searchbar input {
     padding: 3px;
-    margin-right: 0.5em;
+    margin-right: 0.2em;
     border: 0;
     border-radius: 5px;
     font-family: metropolis;
@@ -111,10 +117,6 @@ img{
     max-width: 100%;
 }
 
-.overlay{
-    
-}
-
 button{
     font-family: metropolis;
     background-color: var(--honey);
@@ -123,6 +125,11 @@ button{
     border-radius: 5px;
     padding: 0.5em;
     text-align: center;
+}
+
+.knapper{
+    text-align: center;
+    padding-top: 1em;
 }
 
 .grid_1-1-1-1{
