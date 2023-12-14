@@ -50,7 +50,7 @@ a:hover {
 .overskrift {
   color: #9a4f2e;
   margin-left: 45%;
-  font-family: elsie;
+  font-family: elsie_bold;
 }
 
 .underskrift {
@@ -252,24 +252,24 @@ a {
 
 @font-face {
   font-family: elsie;
-  src: url(fonts/elsieswashwoff2);
+  src: url(fonte/elsieswashwoff2);
 }
 @font-face {
   font-family: elsie_bold;
-  src: url(fonts/elsieswash_bold.woff2);
+  src: url(fonte/elsieswash_bold.woff2);
 }
 
 @font-face {
   font-family: metropolis;
-  src: url(fonts/metropolis.woff2);
+  src: url(fonte/metropolis.woff2);
 }
 
 @font-face {
   font-family: metropolis_bold;
-  src: url(fonts/metropolis_bold.woff2);
+  src: url(fonte/metropolis_bold.woff2);
 }
 
 @font-face {
   font-family: metropolis_black;
-  src: url(fonts/metropolis_black.woff2);
+  src: url(fonte/metropolis_black.woff2);
 }

@@ -2,6 +2,10 @@
   header {
     gap: 30px;
   }
+
+  body {
+    background-color: #a0a582;
+  }
   :root {
     --green: #294036;
     --teracotta: #9a4f2e;
