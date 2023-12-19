@@ -27,6 +27,8 @@
     height: 100px;
     line-height: 80px;
     width: 100vw;
+    margin-top: -10px;
+    margin-left: -8px;
   }
 
   .nav_wrapper {
@@ -152,4 +154,87 @@
   height: auto;
   margin-top: -13px;
   margin-left: -8px;
+}
+
+footer {
+  background-color: #d0b590;
+  color: #a26a41;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: -11px;
+  margin-right: -9px;
+  margin-top: 26px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 20px;
+  max-width: 300px;
+}
+
+.column h1 {
+  font-size: 1.5em;
+}
+
+.icons {
+  display: flex;
+  justify-content: start;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter input {
+  padding: 3px;
+  margin-top: -4px;
+  width: 80%;
+  margin-left: -54px;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #a26a41;
+  color: #d0b590;
+  border: none;
+  cursor: pointer;
+  margin-right: -287px;
+  margin-top: -31px;
+}
+
+.nyhed {
+  margin-left: -182px;
+}
+
+.info {
+  color: #a26a41;
+  margin-top: -8px;
+  font-size: medium;
+}
+
+.artboard {
+  width: 75%;
+  height: auto;
+  margin-left: -26px;
+}
+
+:root {
+  --green: #294036;
+  --teracotta: #9a4f2e;
+  --honey: #d4aa3e;
+  --sage: #a0a582;
+  --darkbrown: #4e3629;
+  --brown: #a26a41;
+  --beige: #d0b590;
+  --cream: #efe6d3;
+}
+a {
+  font-family: metropolis;
+  text-decoration: none;
+  color: var(--honey);
 }
